@@ -17,11 +17,10 @@ set -exo
 THRESHOLD=80
 
 # Get the current usage
-USAGE= $(df -h | awk 'NR==2 {print $5}' | sed 's/%//')
+USAGE=$(df -h | awk 'NR==2 {print $5}' | sed 's/%//')
 
 # Compare if usage is greater than threshold then send the email
-if ["$USAGE" -gt "$THRESHOLD"];
-then:
+if [ "$USAGE" -gt "$THRESHOLD" ]; then
 	echo "Disk usage is above ${THRESHOLD} on $(hostname)" | mail -s "Disk Alert" harjobanpreet15@gmail.com
 fi
 
