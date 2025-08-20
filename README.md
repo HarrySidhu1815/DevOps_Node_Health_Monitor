@@ -5,14 +5,14 @@ These scripts demonstrate automation skills used in day-to-day DevOps engineerin
 
 ---
 
-## 📂 Repository Structure
-├── LICENSE
-├── README.md
-└── sample_scripts/
-├── amazon_process.sh # Finds Amazon-related process IDs
-├── automated_logs_cleanup.sh # Deletes log files older than 7 days
-├── disk_usage_send_alert.sh # Monitors disk usage and sends email alerts
-└── first_script.sh # Basic node health monitoring
+## 📂 Repository Structure  
+├── LICENSE  
+├── README.md  
+└── sample_scripts/  
+├── amazon_process.sh # Finds Amazon-related process IDs  
+├── automated_logs_cleanup.sh # Deletes log files older than 7 days  
+├── disk_usage_send_alert.sh # Monitors disk usage and sends email alerts  
+└── first_script.sh # Basic node health monitoring  
 
 
 ---
